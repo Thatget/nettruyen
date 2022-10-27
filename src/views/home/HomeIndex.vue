@@ -1,10 +1,14 @@
 <template>
-  <div>HomeIndex</div>
+  <v-container class="grey lighten-5">
+    <home-carousel/>
+  </v-container>
 </template>
 
 <script>
-export default {
+import HomeCarousel from '@/layouts/home/HomeCarousel.vue';
 
+export default {
+  components: { HomeCarousel }
 }
 </script>
 
